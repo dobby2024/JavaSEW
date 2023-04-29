@@ -17,8 +17,6 @@ public class Operator07 {
 		}
 		System.out.println(result);
 		
-		
-		
 	}
 
 }
