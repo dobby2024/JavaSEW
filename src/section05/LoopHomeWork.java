@@ -33,7 +33,6 @@ package section05;
   ***
    *
 
-
    ☆
    *
   ***
