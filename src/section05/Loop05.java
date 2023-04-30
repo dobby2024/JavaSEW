@@ -14,8 +14,6 @@ public class Loop05 {
 			System.out.println();	// 개행
 			
 		}
-		
-		System.out.println("깃허브 테슽");
 	}
 }
 
