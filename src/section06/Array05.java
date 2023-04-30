@@ -22,7 +22,6 @@ public class Array05 {
 			System.out.println(); 	// 개행
 		}
 	}
-
 }
 
 
