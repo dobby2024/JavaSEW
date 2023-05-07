@@ -39,7 +39,11 @@ package section07;
  *	객체화 - new 연산자로 인스턴스화 가능!
  *	클래스명(타입) 변수명 = new 클래스();
  *
- * 	
+ *	
+ *	가비지 컬렉터(Garbage Collector)
+ *		자바에서 동적 할당된 메모리(Heap 영역) 중에서 더 이상 사용되지 않는
+ *		객체를 찾아 제거하는 프로세스.
+ *		
  * 
  */
 public class OOP01 {
