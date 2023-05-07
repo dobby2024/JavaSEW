@@ -46,6 +46,9 @@ public class OOP01 {
 	public static void main(String[] args) {
 		Car c = new Car();	// 클래스를 이용해서 객체 생성
 		Car c2 = new Car();
+		
+		System.out.println(System.identityHashCode(c));
+		System.out.println(System.identityHashCode(c2));
 
 		System.out.println("wheel의 개수는 " + c.wheel +"개 입니다.");
 		System.out.println("c2 wheel의 개수는 " + c2.wheel +"개 입니다.");
@@ -53,9 +56,6 @@ public class OOP01 {
 		c.wheel = 12;
 		System.out.println("wheel의 개수는 " + c.wheel +"개 입니다.");
 		System.out.println("c2 wheel의 개수는 " + c2.wheel +"개 입니다.");
-		
-		
-		
 	}
 }
 

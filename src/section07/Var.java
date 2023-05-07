@@ -18,11 +18,19 @@ package section07;
  * 				 	boolean - false
  * 				 	정수형 - 0
  * 					실수형 - 0.0
- * 					참조형 - null
+ * 					참조형 - null(아무것도 없다)
  * 		지역변수 - 메소드 또는 생성자 안에 선언된 변수
  * 				 추가로 매개변수도 지역변수이다.
  * 				 반드시 초기화를 해야한다!!!! (컴파일 에러)
  * 				 메소드 종료시 같이 소멸된다.
+ * 
+ * 3. 정적(static) / 동적 변수
+ * 		정적 - static 붙은 멤버변수	
+ * 			  모든 객체가 공유한다.
+ * 			  클래스명으로 접근 가능.
+ * 			  객체생성 없이 불러올수 있다.
+ * 		동적 - static 아닌 일반 멤버변수
+ * 			  
  * 
  */
 public class Var {
@@ -32,16 +40,29 @@ public class Var {
 		
 		int num2;	// 지역변수는 초기화 필수!
 		
-		System.out.println(num);
+		// System.out.println(num);
 		// System.out.println(num2);	// 초기화 x 컴파일 에러 발생!
 		
 		Car car1 = new Car();
 		System.out.println(car1.wheel);
 		System.out.println(car1.color);
-		System.out.println(car1.camera);
 		
-		
+		setCarOption(car1);
+		System.out.println(car1.wheel);
+		System.out.println(car1.color);
 		
 	}
+	
+	
+	public static void setCarOption(Car car) { // Car car = car1;
+		car.wheel = 3;
+		car.color = "블랙";
+	}
+	
 
 }
+
+
+
+
+
