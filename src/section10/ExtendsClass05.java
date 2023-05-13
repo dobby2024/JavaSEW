@@ -11,5 +11,4 @@ package section10;
 public class ExtendsClass05 {
 	// final클래스 예제 Animal -> Cat -> Persian 클래스 참고
 	// final메소드 예제 Animal -> Dog -> Jindo 클래스 참고
-
 }
