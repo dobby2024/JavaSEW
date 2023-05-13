@@ -23,8 +23,11 @@ public class Phone {
 		this.series = series;
 		this.color = color;
 	}
-	
+	// 오버로딩 생성자
 	public Phone(String brand, int series, String color, int price) {
+		/*
+		 * this() 키워드 사용하여 생성자에서 다른 생성자 호출
+		 */
 		this(brand, series, color);
 		this.price = price;
 	}
