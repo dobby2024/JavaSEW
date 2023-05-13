@@ -4,7 +4,6 @@ package section09;
  * 	현재 객체를 참조하는데 사용되는 키워드.
  * 	this를 통해 내부의 인스턴스 변수, 인스턴스 메소드 또는 다른 생성자 참조 가능. 
  * 
- * 
  */
 public class Constructor03 {
 	
