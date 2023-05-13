@@ -8,6 +8,10 @@ public class Computer {
 	int hdd;
 	String gpu;
 	
+	public Computer() {
+		System.out.println("Computer() 생성자입니다.");
+	}
+	
 	public void getInfo() {
 		System.out.println("brand: " + brand);
 		System.out.println("cpu: " + cpu);
