@@ -3,7 +3,8 @@ package section02;
 import java.util.Scanner;
 /*
  * Scanner
- * 	콘솔에서 입력받는 객체
+ * 	사용자로부터 데이터를 읽기 위해 사용되는 클래스
+ *  Scanner 클래스를 사용하면 키보드로부터 텍스트나 숫자를 읽을 수 있다.
  * 
  * 
  */
