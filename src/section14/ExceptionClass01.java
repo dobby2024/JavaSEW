@@ -17,14 +17,13 @@ public class ExceptionClass01 {
 		int num2 = 0;
 		int result = 0;
 		
-		/*
-		if(num2 != 0) {
-			result = num1 / num2;
-			System.out.println("result : " + result);
-		} else {
-			System.out.println("어떠한 수를 0으로 나눌 수 없습니다!");
-		}
-		*/
+//		if(num2 != 0) {
+//			result = num1 / num2;
+//			System.out.println("result : " + result);
+//		} else {
+//			System.out.println("어떠한 수를 0으로 나눌 수 없습니다!");
+//		}
+		
 		
 		try {
 			result = num1 / num2;
@@ -36,3 +35,11 @@ public class ExceptionClass01 {
 		}
 	}
 }
+
+
+
+
+
+
+
+
