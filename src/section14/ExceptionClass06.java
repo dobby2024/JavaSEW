@@ -35,9 +35,11 @@ public class ExceptionClass06 {
 				scan.close();
 			}
 		}
-		
-		
-		
 	}
-
 }
+
+
+
+
+
+
