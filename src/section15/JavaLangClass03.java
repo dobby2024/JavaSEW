@@ -30,6 +30,8 @@ public class JavaLangClass03 {
 		String str2 = "abc";
 		String str3 = new String("abc");
 		
+	
+		
 		System.out.println(str1);
 		System.out.println(str1.toString());
 		
@@ -39,7 +41,8 @@ public class JavaLangClass03 {
 			System.out.println("str1 과 str2는 다르다.");
 		}
 		
-		System.out.println(System.identityHashCode(str1));
+		System.out.println("str1 주소값 : " +System.identityHashCode(str1));
+		System.out.println("str1.hashCode() : " + str1.hashCode());
 		System.out.println(System.identityHashCode(str2));
 		
 		if(str1.equals(str3)) {
