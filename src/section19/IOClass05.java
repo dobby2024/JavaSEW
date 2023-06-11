@@ -22,9 +22,7 @@ public class IOClass05 {
 		FileOutputStream fos = null;
 		BufferedOutputStream bos = null;
 		
-		
 		PrintStream ps = null;
-		
 		
 		try {
 			// hello.txt 파일을 읽기 위한 객체생성
