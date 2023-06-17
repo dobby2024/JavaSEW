@@ -2,3 +2,7 @@ ORA-28002 에러
 관리자아이디/패쓰워드
 sys/oracle
 ALTER PROFILE DEFAULT LIMIT PASSWORD_LIFE_TIME UNLIMITED;
+
+
+비밀번호 변경하기
+ALTER USER hr IDENTIFIED BY "hr"  REPLACE  "hr";
