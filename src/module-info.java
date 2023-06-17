@@ -6,4 +6,5 @@
  *
  */
 module JavaSEW {
+	requires java.sql;
 }
