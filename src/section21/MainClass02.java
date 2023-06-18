@@ -7,7 +7,7 @@ import java.net.URL;
  * [[ URL(Uniform Resource Locator) ]]
  * 	인터넷에서 웹 페이지, 이미지, 동영상 등과 같은 리소스를 찾을 수 있는 주소
  * 
- * https://n.news.naver.com/article/020/0003493846?ntype=RANKING
+ *  https://n.news.naver.com:443/article/020/0003493846?ntype=RANKING
  * 
  * 	프로토콜(protocol)
  * 		컴퓨터 네트워크를 통해 통신을 수행하기 위한 표준 규칙, 절차, 혹은 통신 프로세스를 의미
