@@ -41,8 +41,8 @@ class SystemOutConsumer implements Consumer<Integer> {
 
 public class Lambda04 {
 	public static void main(String[] args) {
-//		List<Integer> numbers = Arrays.asList(23, 43, 34, 45, 36, 48);
-		List<Integer> numbers = List.of(23, 43, 34, 45, 36, 48);
+		List<Integer> numbers = Arrays.asList(23, 43, 34, 45, 36, 48);
+//		List<Integer> numbers = List.of(23, 43, 34, 45, 36, 48);
 		
 		numbers.stream()
 				.filter(n -> n % 2 == 0)
